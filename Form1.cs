@@ -19,7 +19,15 @@ namespace ButtonTester
 
         private void Close_Click(object sender, EventArgs e)
         {
-            s
+            this.Close();
+        }
+
+        private void Button2_Click(object sender, EventArgs e)
+        {
+            var f2 = new Form1();
+            f2.Show();
         }
     }
 }
+//var f2 = new CalcPanel();
+//f2.Show();
