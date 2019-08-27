@@ -27,6 +27,12 @@ namespace ButtonTester
             var f2 = new Form1();
             f2.Show();
         }
+
+        private void Button3_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Dies ist der Test eines Buttons!");
+
+        }
     }
 }
 //var f2 = new CalcPanel();
